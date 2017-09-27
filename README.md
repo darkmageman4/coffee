@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# coffee
-=======
 # Coffee Project
 
 Congratulations! You have landed your first development job! You have inherited
@@ -47,4 +44,3 @@ improvements to it.
 
     The page looks pretty plain as it is, and the refactoring we did above to
     use `div`s for coffees should give us more flexibility in styling.
->>>>>>> 5e42eab (first)
