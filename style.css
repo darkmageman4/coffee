@@ -1,9 +1,64 @@
-table {
-    border-collapse: collapse;
-    margin: 15px 0;
+@media screen and (min-width: 576px) {
+
+
+    h1 {
+        font-family: 'Amatic SC', cursive;
+        font-size: 3em;
+    }
+
+    h2 {
+        font-family: 'Amatic SC', cursive;
+    }
+
+    hr {
+        color: black;
+    }
+
+    body {
+        background-color: #0fb784;
+    }
+
+    img {
+        width: 75px;
+    }
+
+    #coffees {
+        width: 100%;
+        margin: 0;
+    }
+
+    .coffee-div {
+        margin: 1em;
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+        font-size: 1.5em;
+
+    }
+
+    canvas {
+        display: none;
+    }
+    .text-warning{
+        display: none;
+    }
+
 }
 
-td, th {
-    border: 1px solid black;
-    padding: 5px 10px;
+@media screen and (min-width: 992px) {
+    body {
+        background-color: peachpuff;
+    }
+
+    canvas {
+        display: flex;
+    }
+
+    .text-warning{
+        display: block;
+    }
+
+    .moving {
+        margin-bottom: 1em;
+    }
+
 }
