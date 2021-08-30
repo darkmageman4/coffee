@@ -33,7 +33,6 @@ function updateCoffees(e) {
     renderCoffees(filteredCoffees);
 }
 
-
 function addCoffee(e) {
     e.preventDefault();
     let isInArray = false;
